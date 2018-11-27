@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="inc/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJ9eaYy_NhqOuvCtmeEC6L0b2GfiKzmb4&callback=initMap" async defer></script>
+    <script src="inc/js/map.js" charset="utf-8"></script>
+    <script src="inc/js/carousel.js" charset="utf-8"></script>
+    <title>Help</title>
+
+</head>
+
+<body>
+    <!-- debut du header -->
+    <header role="heading">
+
+        <figure class="logo" role="img">
+            <a href=""><img class="mainlogo" src="inc/img/aidefarahlogo- 2.svg" alt="logo aidefarah">
+            </a>
+        </figure>
+        <!-- debut de la nav -->
+        <nav class="shadow" id="hamburger-content" role="navigation">
+            <ul>
+                <!-- <li><a class="swing " href="#">Accueil</a></li> -->
+                <li><a class="swing " href="inc/pages/about.html">A propos</a></li>
+                <li><a class="swing " href="inc/pages/NosPrestations.html">Nos prestation</a></li>
+                <li><a class="swing " href="inc/pages/LesAides.html">Les aides</a> </li>
+                <li><a class="swing " href="inc/pages/NosTarifs.html">Nos tarifs</a></li>
+            </ul>
+        </nav>
+        <!-- fin de la nav -->
+
+        <i id="burger-button" class="clickable fa fa-bars fa-lg"></i>
+        <i id="closer-button" class=" hidden fas fa-times"></i>
+
+
+        <div id="hamburger_sidebar">
+            <div id="hamburger_sidebar-header">
+                <figure class="logo" role="img">
+                    <a href=""><img class="mainlogo" src="inc/img/aidefarahlogo- 2.svg" alt="logo aidefarah">
+                    </a>
+                </figure>
+            </div>
+            <div id="hamburger_sidebar-body"></div>
+        </div>
+
+    </header>
+    <!-- fin du header -->
+
+    <!-- debut du carousel -->
+
+    <div class="main">
+        <figure class="carousel">
+            <div class="carousel">
+                <img id="slider" src="inc/img/imagecard.jpg" alt="image" role="img">
+                <div class="slider-btn">
+                    <i id="prev" class="far fa-circle"></i>
+                    <i class="fas fa-circle"></i>
+                    <i id="next" class="far fa-circle"></i>
+                </div>
+                <div class="message-carousel">
+                    <h1>Vivre chez soi, bien entouré</h1>
+                    <h2>L'aide à domicile sur-mesure, abordable et connectée</h2>
+                    <button class="swing shadow2" type="button" name="button">Choisissez votre tarif ></button>
+                </div>
+            </div>
+
+        </figure>
+
+
+
+
+        <!-- debut main card -->
+        <div class="column-card-container1 shadow">
+            <div class="box-card-1 ">
+                <h3 class="title">Box 1</h3>
+                <p class="textbox">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, expedita?Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                    qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="box-card-2"> <img class="responsive" src="inc/img/imagemain.jpg" alt="serice d'aide à domicile"></div>
+        </div>
+        <!-- fin main card -->
+
+        <p class="title"> Nos services</p>
+        <p class="subtitle">Notre savoir-faire au service du bien-être de vos proches, 7j/7 et 24h/24</p>
+
+        <!-- debut column card -->
+        <div class="column-card-container2">
+            <div id="containerbox" class="container-2-box shadow">
+                <h1 class="title">Service 1 </h1>
+                <img src="inc/img/service (1).png" alt="">
+
+                <button id="btnHover" class="btn" type="submit" name="button"> En savoir plus +</button>
+            </div>
+            <div id="containerBox2" class="container-2-box shadow">
+                <h1 class="title">Service 2</h1>
+                <img src="inc/img/service (2).png" alt="">
+
+                <button id="btnHover2" class="btn" type="submit" name="button"> En savoir plus +</button>
+            </div>
+            <div class="container-2-box shadow">
+                <h1 class="title">Service 3</h1>
+                <img src="inc/img/service (3).png" alt="">
+                <button class="btn" type="submit" name="button"> En savoir plus +</button>
+
+            </div>
+            <div class="container-2-box shadow">
+                <h1 class="title">Service 3</h1>
+                <img src="inc/img/service (3).png" alt="">
+
+                <button class="btn" type="submit" name="button"> En savoir plus +</button>
+            </div>
+        </div>
+
+        <!-- fin column card -->
+        <!-- Début des partenaires -->
+
+        <div class="partenaires">
+            <img src="inc/img/mairiedeparis.svg" alt="<maire de paris</m>" class="partenaires">
+            <img src="inc/img/sap_small.png" alt="service à la personne" class="partenaires">
+            <img src="inc/img/iledefrance.svg" alt=" ile de france" class="partenaires">
+            <img src="inc/img/chartequalite_small.png" alt=" charte qualité 2017" class="partenaires">
+        </div>
+
+        <!-- Fin des partenaires -->
+
+        <!-- debut du formulaire de contact -->
+        <h1 class="title">Nous contacter</h1>
+        <div class="column-card-container3 shadow">
+            <div class="box-card-3 ">
+                <h3>Maps</h3>
+                <div id="map">
+
+                </div>
+            </div>
+            <div class="box-card-4 ">
+                <div class="formulaire">
+                    <h3>Contact</h3>
+                    <form class="formulaire" action="inc/php/contact-form.php" method="post">
+                        <div class="input-name">
+                            <input required type="text" name="nom" placeholder="Votre nom *">
+                            <input type="text" name="prénom" placeholder="Votre prénom *">
+                        </div>
+                        <input required type="tel" name="phone" placeholder="Votre numéro de téléphone *">
+                        <input required type="mail" name="email" placeholder="Votre adesse e-mail *">
+                        <textarea required name="message" placeholder="Votre message *"></textarea>
+                        <button class="btn" type="submit" name="submit">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+            <!-- fin du formulaire de contact -->
+
+
+        </div>
+    </div>
+        <footer>
+            <p class="copy">
+                -COPYRIGHT &copy; 2018 -Business Engineers-
+            </p>
+
+
+        </footer>
+        <!-- fin du footer -->
+
+        <!-- fin du carousel -->
+
+
+</body>
+<script src="inc/js/app.js" charset="utf-8"></script>
+
+</html>
